@@ -2,7 +2,7 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "projects": {
-    "ngx-facebook": {
+    "ngx-facebook-buttons": {
       "projectType": "library",
       "root": "",
       "architect": {
@@ -22,6 +22,29 @@
           }
         }
       }
+    },
+    "demo": {
+      "projectType": "application",
+      "root": "",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "main": "demo/main.ts",
+            "tsConfig": "tsconfig.json",
+            "outputPath": "dist/demo",
+            "index": "demo/index.html",
+            "polyfills": "demo/polyfills.ts"
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "demo:build"
+          }
+        }
+      }
     }
-  }
+  },
+  "defaultProject": "ngx-facebook-buttons"
 }

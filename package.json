@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve demo",
     "build": "ng build",
     "test": "ng test"
   },
@@ -16,8 +16,11 @@
     "@angular/compiler": "^8.2.13",
     "@angular/compiler-cli": "^8.2.13",
     "@angular/core": "^8.2.13",
+    "@angular/platform-browser": "^8.2.13",
+    "@angular/platform-browser-dynamic": "^8.2.13",
     "karma": "^4.4.1",
-    "ng-packagr": "^5.7.1"
+    "ng-packagr": "^5.7.1",
+    "zone.js": "^0.10.2"
   },
   "ngPackage": {
     "lib": {
