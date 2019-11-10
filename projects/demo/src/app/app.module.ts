@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FacebookButtonsModule } from '../../../ngx-facebook-buttons/src/public_api';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -7,9 +8,9 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FacebookButtonsModule
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {
-}
+export class AppModule {}

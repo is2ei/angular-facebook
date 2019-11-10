@@ -30,11 +30,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "main": "demo/main.ts",
+            "main": "projects/demo/src/main.ts",
             "tsConfig": "tsconfig.json",
             "outputPath": "dist/demo",
-            "index": "demo/index.html",
-            "polyfills": "demo/polyfills.ts"
+            "index": "projects/demo/src/index.html",
+            "polyfills": "projects/demo/src/polyfills.ts"
           }
         },
         "serve": {

@@ -1,1 +1,0 @@
-export { FacebookButtonsModule } from './ngx-facebook-buttons.module';
