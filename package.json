@@ -19,7 +19,7 @@
     "@angular/platform-browser": "^8.2.13",
     "@angular/platform-browser-dynamic": "^8.2.13",
     "karma": "^4.4.1",
-    "ng-packagr": "^5.7.1",
+    "ng-packagr": "^10.1.1",
     "zone.js": "^0.10.2"
   },
   "ngPackage": {
