@@ -18,7 +18,7 @@
     "@angular/core": "^8.2.13",
     "@angular/platform-browser": "^8.2.13",
     "@angular/platform-browser-dynamic": "^8.2.13",
-    "karma": "^4.4.1",
+    "karma": "^6.3.16",
     "ng-packagr": "^5.7.1",
     "zone.js": "^0.10.2"
   },
